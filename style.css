@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+header{
+    background-color: #9a7b4a;
+}
+
+header nav a img{
+    width: 120px;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+header nav a{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.titulo {
+    text-align: center;
+    color: #c49a6c;
+    font-size: 30px;
+    margin-top: 30px;
+    font-family: 'Playfair Display', serif;
+}
