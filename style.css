@@ -86,8 +86,11 @@ section{
     font-family: 'Playfair Display', serif;
 }
 
-.parrafo{
+.parrafo {
     text-align: center;
+    max-width: 800px;  
+    margin: auto;       
+    line-height: 1.6;     
 }
 
 /*Acordion*/
