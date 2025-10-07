@@ -11,6 +11,7 @@ li{
     list-style: none;
 }
 
+ /*Header*/
 header{
     background-color: #9a7b4a;
 }
@@ -35,6 +36,16 @@ header nav a{
     font-family: 'Montserrat', sans-serif;
 }
 
+/*Sections*/
+section{
+    min-height: 100vh;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*Titulo principal*/
 .titulo {
     text-align: center;
     color: #c49a6c;
@@ -43,16 +54,20 @@ header nav a{
     font-family: 'Playfair Display', serif;
 }
 
-.carousel{
-    width: 80vw;    
-    margin: auto;
+/*Carousel*/
+.carousel {
+    width: 80vw;          
+    margin: 0 auto;
     overflow: hidden;
+    height: auto;         
 }
 
-.carousel img{
-    width: 80vw;
-    height: 100vh;
+.carousel img {
+    width: 100%;          
+    max-height: 60vh;      
     object-fit: cover;
+    display: block;
+    margin: auto;
 }
 
 .carousel-caption{
@@ -60,4 +75,28 @@ header nav a{
     background-color: rgba(154, 123, 74, 0.8);
     width: 50%;
     margin: auto;
+}
+
+/*Subtitulo*/
+.subtitulo{
+    text-align:center;
+    color: #c49a6c;
+    font-size: 30px;
+    margin-top: 30px;
+    font-family: 'Playfair Display', serif;
+}
+
+.parrafo{
+    text-align: center;
+}
+
+/*Acordion*/
+.accordion{
+    width: 70vw;
+    margin: 40px auto;
+}
+
+.accordion-button, .accordion-button:not(.collapsed){
+    background-color: #c49a6c;
+    color: black;
 }
