@@ -128,16 +128,9 @@ section{
 }
 
 /*Galeria-Catalogo*/
-.logo-contacto {
-    width: 150px;
-    height: auto;
-    display: block;
-    margin: left;
-}
-
-.catalogo-contenedor{
+.galeria-contenedor{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 25px;
     padding: 40px 60px;
     justify-items: center;
@@ -162,26 +155,18 @@ section{
 .producto h4{
     color:#c49a6c ;
     font-family: 'Playfair Display', serif;
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 5px;
 }
 
-.producto p{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    color: black;
-    margin-bottom: 10px;
-}
-
-.ver-mas{
-    background-color: #c49a6c;
-    color: black;
-    padding: 8px 15px;
-    font-family: 'Montserrat', sans-serif;
-     font-size: 14px;
-}
 
 /*Contacto*/
+.logo-contacto {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: left;
+}
 .titulo-contacto{
     text-align:left;
     color: #c49a6c;
@@ -274,7 +259,7 @@ section{
 }
 
  @media (max-width: 400px) {
-    .catalogo-contenedor {
+    .galeria-contenedor {
         grid-template-columns: 1fr;
         gap: 20px;
         padding: 15px;
