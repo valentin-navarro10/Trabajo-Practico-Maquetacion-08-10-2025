@@ -39,10 +39,9 @@ header nav a{
 /*Sections*/
 section{
     min-height: 100vh;
-    padding: 50px 0;
+    padding: 0 20px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
 /*Titulo principal*/
@@ -93,13 +92,28 @@ section{
     line-height: 1.6;     
 }
 
-/*Acordion*/
-.accordion{
-    width: 70vw;
-    margin: 40px auto;
+.card-nosotros {
+    background-color: whitesmoke;
+    padding: 20px;
+    margin: 20px auto;          
+    max-width: 400px;        
+    border-radius: 10px;       
+    text-align: center;         
 }
 
-.accordion-button, .accordion-button:not(.collapsed){
-    background-color: #c49a6c;
-    color: black;
+.card-nosotros img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.card-nosotros h3 {
+    color: #9a7b4a;             
+    font-size: 18px;           
+    font-family: 'Playfair Display', serif;
+}
+
+.card-nosotros p,
+.card-nosotros ul {
+  font-size: 14px;            
+  margin: 0;
 }
