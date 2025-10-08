@@ -227,6 +227,13 @@ section{
 
 
 /* Mediaqueries*/
+@media (max-width: 768px) {
+    .galeria-contenedor {
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 25px; 
+        padding: 30px;
+    }
+}
 
 @media (max-width: 480px) {
     header nav {
@@ -240,7 +247,6 @@ section{
         gap: 8px;
         align-items: center;
         width: 100%;
-        margin: auto;
         padding: 0;
         margin: 0;
     }
@@ -253,8 +259,9 @@ section{
         column-count: 1;
         column-gap: 0;
         text-align: left;
-        font-size: 14px;
-        padding: 0 10px;
+        font-size: 15px;
+        padding: 0 15px;
+        line-height: 1.5;
     }
 }
 
@@ -265,7 +272,7 @@ section{
         padding: 15px;
     }
     .producto {
-        max-width: 90%;
+        max-width: 100%;
         margin: 0 auto;
         padding: 15px;
     }
@@ -280,10 +287,7 @@ section{
     .producto p {
         font-size: 14px;
     }
-    .ver-mas {
-        font-size: 14px;
-        padding: 8px 12px;
-    }
+  
     .parrafo{
         column-count: 1;
         text-align: left;
