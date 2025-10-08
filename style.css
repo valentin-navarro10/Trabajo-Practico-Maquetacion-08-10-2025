@@ -128,6 +128,13 @@ section{
 }
 
 /*Galeria-Catalogo*/
+.logo-contacto {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: left;
+}
+
 .catalogo-contenedor{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
@@ -238,23 +245,23 @@ section{
 /* Mediaqueries*/
 @media (max-width: 480px) {
     header nav {
-        display: flex;
         flex-direction: column;
         align-items: center;
         gap: 10px;
-        width: 100px;
+        width: 100%;
     }
     header nav ul {
-        display: flex;
-        gap: 10px;
+        flex-direction: column;
+        gap: 8px;
         align-items: center;
         width: 100%;
         margin: auto;
+        padding: 0;
+        margin: 0;
     }
     header nav a img {
-        width: 90px;
+        width: 100px;
         height: auto;
-        display: block;
         margin-bottom: 5px;
     }
     .parrafo{
