@@ -265,7 +265,7 @@ section{
     }
 }
 
- @media (max-width: 400px) {
+ @media (max-width: 480px) {
     .galeria-contenedor {
         grid-template-columns: 1fr;
         gap: 20px;
